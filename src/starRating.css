@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.starRating {
+  display: flex;
+  align-content: "center";
+  /* justify-content: center; */
+  /* gap: "16px"; */
+  justify-content: center;
+}
+.number-star {
+  display: flex;
+  gap: 4px;
+}
+.starRating p {
+  /* margin-top: 3px; */
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: #fcc419;
+}
+.number-star span {
+  display: block;
+  cursor: pointer;
+  cursor: pointer;
+}
